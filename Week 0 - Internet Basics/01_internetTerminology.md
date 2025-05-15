@@ -52,3 +52,5 @@ Hosting is the service of storing and making websites accessible on the internet
 Deployment refers to the process of transferring files and applications to a server, making them available to users.
 
 **Example:** Hosting can be done via services like AWS, and deployment can be done using CI/CD pipelines.
+
+> **Internet Section Completed.** 🚀
