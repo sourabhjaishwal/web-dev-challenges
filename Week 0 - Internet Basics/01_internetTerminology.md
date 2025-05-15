@@ -5,11 +5,15 @@
 The Internet is a global network of computers and servers that communicate with each other using protocols like TCP/IP, allowing for the exchange of data and information.
 It connects millions of devices, enabling services such as the World Wide Web, email, file sharing, and more.
 
+---
+
 ## 2. How Does the Internet Work?
 
 The Internet works by using a combination of hardware and protocols to facilitate data transfer between computers. Devices connect to each other via routers, switches, and data centers using TCP/IP protocols.
 
 **Example:** When you visit a website, your browser sends a request to a server, which responds by sending back the requested data.
+
+---
 
 ## 3. List of Common Internet Terminologies
 
@@ -23,11 +27,15 @@ The Internet works by using a combination of hardware and protocols to facilitat
 
 **Firewall:** A system that filters traffic and protects from unauthorized access.
 
+---
+
 ## 4. What is a URL?
 
 A URL (Uniform Resource Locator) is the address used to access resources on the Internet, such as websites or files. It typically includes the protocol, domain name, and file path.
 
 **Syntax Example:** https://www.example.com/page1
+
+---
 
 ## 5. What is HTTPS vs HTTP?
 
