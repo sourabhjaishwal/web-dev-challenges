@@ -115,3 +115,4 @@ Forms collect user input; tables display tabular data.
 </table>
 ```
 
+> **Part 1 Completed, Move to Next Part.** ➡️

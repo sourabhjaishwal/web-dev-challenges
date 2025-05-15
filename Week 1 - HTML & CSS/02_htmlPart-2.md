@@ -151,6 +151,4 @@ Core Web Vitals are key metrics by Google to measure user experience in terms of
 - [PageSpeed Insights](https://pagespeed.web.dev/)
 - Chrome DevTools → Performance Tab
 
-<br>
-
 > **HTML Section Completed.** 🚀
