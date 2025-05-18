@@ -1,0 +1,40 @@
+<!-- 
+4. Apply Flexbox to Center Elements
+
+- Create a simple container with two items and use Flexbox to center them both horizontally and vertically.
+- Objective: Understand how Flexbox works for centering. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge - 04</title>
+    <style>
+      .flex-container {
+        margin: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        height: 90vh;
+        gap: 20px; /* Optional spacing between items */
+      }
+
+      .item-1,
+      .item-2 {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="item-1"></div>
+      <div class="item-2"></div>
+    </div>
+  </body>
+</html>
