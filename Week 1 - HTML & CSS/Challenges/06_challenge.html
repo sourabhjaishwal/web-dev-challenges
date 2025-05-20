@@ -1,0 +1,42 @@
+<!-- 
+6. Create a Simple Grid Layout
+
+- Use CSS Grid to create a layout with 3 columns.
+- Objective: Learn basic CSS Grid properties. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge - 06</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+        gap: 20px; /* space between columns */
+      }
+
+      .grid-item {
+        background-color: #4caf50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">Column 1</div>
+      <div class="grid-item">Column 2</div>
+      <div class="grid-item">Column 3</div>
+    </div>
+  </body>
+</html>
