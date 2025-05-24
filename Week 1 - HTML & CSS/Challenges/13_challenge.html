@@ -1,0 +1,80 @@
+<!-- 
+13. Use Semantic HTML Elements
+
+- Structure a simple article page using semantic elements like <header>, <main>, <article>, <section>, and <footer>.
+- Objective: Understand and apply semantic HTML for better accessibility and SEO.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semantic Article Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    header, footer {
+      background-color: #333;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    main {
+      padding: 2em;
+    }
+
+    article {
+      margin-bottom: 2em;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 1em;
+    }
+
+    section {
+      margin-top: 1em;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Tech Blog</h1>
+    <p>Insights and tutorials on web development</p>
+  </header>
+
+  <main>
+    <article>
+      <h2>Understanding Semantic HTML</h2>
+      <p>Semantic HTML introduces meaning to web documents. It helps screen readers, search engines, and developers understand content structure more easily.</p>
+
+      <section>
+        <h3>Why Use Semantic Elements?</h3>
+        <p>They improve accessibility, SEO, and code readability. For example, using `<article>` or `<section>` makes the content more meaningful than just using `<div>` everywhere.</p>
+      </section>
+
+      <section>
+        <h3>Common Semantic Tags</h3>
+        <ul>
+          <li>&lt;header&gt;, &lt;footer&gt;</li>
+          <li>&lt;main&gt;, &lt;section&gt;, &lt;article&gt;</li>
+          <li>&lt;nav&gt;, &lt;aside&gt;</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Tech Blog. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
