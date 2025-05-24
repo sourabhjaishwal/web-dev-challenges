@@ -1,0 +1,49 @@
+<!-- 
+11. Embed a YouTube Video
+
+- Embed a responsive YouTube video into your webpage.
+- Objective: Learn how to use the <iframe> tag and make media responsive.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge - 11</title>
+    <style>
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+      }
+
+      .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Responsive YouTube Video Example</h1>
+
+    <div class="video-container">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/MRtg6A1f2Ko?si=VbGkz7eovggQLAEm"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>
